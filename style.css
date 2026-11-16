@@ -183,7 +183,7 @@ form.f textarea{min-height:90px;resize:vertical}
 /* Carte des espaces */
 .smap{display:grid;grid-template-columns:minmax(260px,5fr) 7fr;gap:clamp(30px,5vw,80px);align-items:start}
 .map{position:relative;aspect-ratio:480/632;max-width:440px;width:100%}
-.map>img{position:absolute;inset:0;width:100%;height:100%;-webkit-mask-image:radial-gradient(ellipse 70% 70% at 50% 50%,#000 55%,transparent 100%);mask-image:radial-gradient(ellipse 70% 70% at 50% 50%,#000 55%,transparent 100%)}
+.map>img{position:absolute;inset:0;width:100%;height:100%;-webkit-mask-image:radial-gradient(ellipse 58% 58% at 50% 50%,#000 45%,transparent 86%);mask-image:radial-gradient(ellipse 58% 58% at 50% 50%,#000 45%,transparent 86%)}
 .map .routes{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
 .map .pin{position:absolute;transform:translate(-50%,-50%);font-family:var(--title);font-size:11px;letter-spacing:.2em;text-transform:uppercase;cursor:pointer;display:flex;align-items:center;gap:10px}
 .map .pin i{display:block;width:12px;height:12px;border-radius:50%;background:var(--ink);box-shadow:0 0 0 6px rgba(0,0,0,.08);flex:none}
